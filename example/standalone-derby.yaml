@@ -1,7 +1,7 @@
-version: "2"
+version: "3"
 services:
   nacos:
-    image: nacos/nacos-server:${NACOS_VERSION}
+    image: joizhang/nacos-server:${NACOS_VERSION}
     container_name: nacos-standalone
     environment:
       - PREFER_HOST_MODE=hostname
@@ -25,5 +25,5 @@ services:
     container_name: grafana
     image: grafana/grafana:latest
     ports:
-      - 3000:3000
+      - "3000:3000"
     restart: on-failure
