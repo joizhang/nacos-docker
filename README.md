@@ -59,4 +59,3 @@ docker-compose -f example/standalone-derby.yaml up
 ```
 
 访问 [http://127.0.0.1:8848/nacos](http://127.0.0.1:8848/nacos)
-
