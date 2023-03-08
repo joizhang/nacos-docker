@@ -9,6 +9,7 @@
 最新 Nacos server 镜像，支持 Apple M1.
 
 解决官方 `nacos/nacos-server` 报错的问题：
+
 ```
 13:03:45.605 [main] ERROR org.springframework.boot.SpringApplication - Application run failed
 com.alibaba.nacos.api.exception.runtime.NacosRuntimeException: ErrCode:500, ErrMsg:Function not implemented
