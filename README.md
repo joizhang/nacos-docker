@@ -6,7 +6,7 @@
 
 ## 说明
 
-最新 Nacos server 镜像，支持 Apple M1.
+最新 Nacos server 镜像，支持 Apple silicon.
 
 解决官方 `nacos/nacos-server` 报错的问题：
 
@@ -59,4 +59,4 @@ docker build ./build -t="joizhang/nacos-server:2.2.0"
 docker-compose -f example/standalone-derby.yaml up
 ```
 
-访问 [http://127.0.0.1:8848/nacos](http://127.0.0.1:8848/nacos)
+访问 [http://127.0.0.1:8848/nacos](http://127.0.0.1:8848/nacos)，用户名为nacos，密码为nacos。
